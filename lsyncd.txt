@@ -33,5 +33,5 @@ The key parts were defining the ssh.identityFile and ssh.options.User settings a
 Now I am able to run using:
 sudo lsyncd ~/.lsyncd
 Here are some relevant issues:
-	•	#301
-	•	#217
+	•	https://github.com/axkibe/lsyncd/issues/301
+	•	https://github.com/axkibe/lsyncd/issues/217
