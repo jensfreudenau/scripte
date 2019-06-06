@@ -12,7 +12,7 @@ settings {
 }
 sync {
     default.rsyncssh,
-    source    = "/Users/dustin/workspace/shared-dir/",
+    source    = "/Users/ottowalkes/workspace/shared-dir/",
     host = "dev",
     targetdir = "/shared-dir",
     rsync     = {
@@ -21,7 +21,7 @@ sync {
         compress = true,
    },
    ssh = {
-       identityFile = "/Users/dustin/.ssh/id_rsa",
+       identityFile = "/Users/ottowalkes/.ssh/id_rsa",
        options = {
           User = 'ubuntu'
        }
